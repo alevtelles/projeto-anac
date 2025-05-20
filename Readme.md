@@ -39,18 +39,18 @@ O projeto trabalha com as seguintes colunas do dataset original:
 1. **Banco de dados PostgreSQL via Docker**:
 
    ```bash
-   docker run --name psql-anac -e POSTGRES_PASSWORD=senha123 -e POSTGRES_USER=postgres -e POSTGRES_DB=python -p 5432:5432 -d postgres:alpine
+   docker run --name seu_banco -e POSTGRES_PASSWORD=suasenha -e POSTGRES_USER=postgres -e POSTGRES_DB=python -p 5432:5432 -d postgres:alpine
    ```
 
 2. **Configuração das variáveis de ambiente**:
    Crie um arquivo `.env` na raiz do projeto com:
 
    ```env
-   DB_NAME=python
-   DB_USER=postgres
-   DB_PASSWORD=senha123
-   DB_HOST=localhost
-   DB_PORT=5432
+   DB_NAME=
+   DB_USER=
+   DB_PASSWORD=
+   DB_HOST=
+   DB_PORT=
    ```
 
 3. **Instalação de dependências**:
