@@ -1,0 +1,52 @@
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDE/Editor
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Dependências
+node_modules/
+bower_components/
+jspm_packages/
+
+# Logs e bancos de dados
+*.log
+*.sqlite
+*.db
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Arquivos de build
+dist/
+build/
+out/
+*.exe
+*.dll
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos de cache
+.cache/
+
+# Arquivos de sistema
+ehthumbs.db
+[Dd]esktop.ini
+
+# Arquivos de usuário
+*.user
+files
+*.files
